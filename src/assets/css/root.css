@@ -1,0 +1,207 @@
+:root {
+    --font-size-xsm: 14px;
+    --font-size-sm: 14.83px;
+    --font-size-xmd: 16px;
+    --font-size-md: 20px;
+    --font-size-xlg: 24px;
+    --font-size-lg: 32px;
+    --font-size-xl: 32.2px;
+    --font-size-2xl: 36px;
+    --font-size-3xl: 40.44px;
+    --font-size-4xl: 48px;
+    --font-size-5xl: 64px;
+    --font-size-6xl: 79px;
+    --font-size-7xl: 108.22px;
+
+
+    --line-height-xsm: 17.7px;
+    --line-height-sm: 19.36px;
+    --line-height-xmd: 24.2px;
+    --line-height-md: 25px;
+    --line-height-xlg: 25.6px;
+    --line-height-lg: 29.05px;
+    --line-height-xl: 30px;
+    --line-height-2xl: 32.12px;
+    --line-height-3xl: 43.57px;
+    --line-height-4xl: 48.94px;
+    --line-height-5xl: 58px;
+    --line-height-6xl: 77.45px;
+    --line-height-7xl: 95px;
+    --line-height-8xl: 130.97px;
+
+
+    --font_weight-900: 900;
+
+    --orange: #FC9800;
+    --para-col: #333333;
+    --off-white: #B2B2B2;
+
+}
+
+.off_white {    
+    color: var(--off-white);
+}
+
+.para_color {
+    color: var(--para-col);
+}
+
+.color_orange {
+    color: var(--orange);
+}
+
+.font_size_xsm {
+    font-size: var(--font-size-xsm);
+}
+
+.font_size_sm {
+    font-size: var(--font-size-sm);
+}
+
+.font_size_xmd {
+    font-size: var(--font-size-xmd);
+}
+
+.font_size_md {
+    font-size: var(--font-size-md);
+}
+
+.font_size_xlg {
+    font-size: var(--font-size-xlg);
+}
+
+.font_size_lg {
+    font-size: var(--font-size-lg);
+}
+
+.font_size_xl {
+    font-size: var(--font-size-xl);
+}
+
+.font_size_2xl {
+    font-size: var(--font-size-2xl);
+}
+
+.font_size_3xl {
+    font-size: var(--font-size-3xl);
+}
+
+.font_size_4xl {
+    font-size: var(--font-size-4xl);
+}
+
+.font_size_5xl {
+    font-size: var(--font-size-5xl);
+}
+
+.font_size_6xl {
+    font-size: var(--font-size-6xl);
+}
+
+.font_size_7xl {
+    font-size: var(--font-size-7xl);
+}
+
+
+
+.line_height_xsm {
+    line-height: var(--line-height-xsm);
+}
+
+.line_height_sm {
+    line-height: var(--line-height-sm);
+}
+
+.line_height_xmd {
+    line-height: var(--line-height-xmd);
+}
+
+.line_height_md {
+    line-height: var(--line-height-md);
+}
+
+.line_height_xlg {
+    line-height: var(--line-height-xlg);
+}
+
+.line_height_lg {
+    line-height: var(--line-height-lg);
+}
+
+.line_height_xl {
+    line-height: var(--line-height-xl);
+}
+
+.line_height_xl {
+    line-height: var(--line-height-xl);
+}
+
+.line_height_2xl {
+    line-height: var(--line-height-2xl);
+}
+
+.line_height_3xl {
+    line-height: var(--line-height-3xl);
+}
+
+.line_height_4xl {
+    line-height: var(--line-height-4xl);
+}
+
+.line_height_5xl {
+    line-height: var(--line-height-5xl);
+}
+
+.line_height_6xl {
+    line-height: var(--line-height-6xl);
+}
+
+.line_height_7xl {
+    line-height: var(--line-height-7xl);
+}
+
+.line_height_8xl {
+    line-height: var(--line-height-8xl);
+}
+
+.font_weight_900 {
+    font-weight: var(--font_weight-900);
+}
+
+@media (max-width:768px) {
+    :root {
+            --font-size-xsm: 14px;
+            --font-size-sm: 14.83px;
+            --font-size-xmd: 15px;
+            --font-size-md: 18px;
+            --font-size-xlg: 24px;
+            --font-size-lg: 32px;
+            --font-size-xl: 32.2px;
+            --font-size-2xl: 36px;
+            --font-size-3xl: 40.44px;
+            --font-size-4xl: 48px;
+            --font-size-5xl: 41px;
+            --font-size-6xl: 79px;
+            --font-size-7xl: 108.22px;
+    
+    
+            --line-height-xsm: 17.7px;
+            --line-height-sm: 19.36px;
+            --line-height-xmd: 24.2px;
+            --line-height-md: 25px;
+            --line-height-xlg: 25.6px;
+            --line-height-lg: 29.05px;
+            --line-height-xl: 30px;
+            --line-height-2xl: 32.12px;
+            --line-height-3xl: 43.57px;
+            --line-height-4xl: 48.94px;
+            --line-height-5xl: 58px;
+            --line-height-6xl: 77.45px;
+            --line-height-7xl: 95px;
+            --line-height-8xl: 130.97px;
+    
+    
+            --font_weight-900: 900;
+    
+        }
+}

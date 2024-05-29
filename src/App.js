@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Herosection from './components/Herosection';
+import Orange_section from './components/Orange_section';
+import About from './components/About';
+import Tokenomics from './components/Tokenomics';
+import Footer from './components/Footer';
+import Utility from './components/Utility';
+import Ecosystem from './components/Ecosystem';
+import News from './components/News';
+import Roadmap from './components/Roadmap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Herosection />
+      <Orange_section />
+      <About />
+      <Tokenomics />
+      <Utility />
+      <Ecosystem />
+      <Roadmap />
+      <News />
+      <Orange_section />
+      <Footer />
+    </>
   );
 }
 
