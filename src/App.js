@@ -9,21 +9,23 @@ import Utility from './components/Utility';
 import Ecosystem from './components/Ecosystem';
 import News from './components/News';
 import Roadmap from './components/Roadmap';
+import Rotate from './components/Rotate';
 
 function App() {
   return (
-    <>
+    <div className=' overflow-hidden'>
       <Herosection />
       <Orange_section />
       <About />
       <Tokenomics />
       <Utility />
+      <Rotate />
       <Ecosystem />
       <Roadmap />
       <News />
       <Orange_section />
       <Footer />
-    </>
+    </div>
   );
 }
 
