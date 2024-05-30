@@ -160,12 +160,9 @@
 }
 
 .hero_btn1:hover {
-    background: transparent;
-    border-radius: 189px;
-    border: 1px solid #FFFFFF;
-    color: white;
-    transition: 300ms ease-in-out;
-
+    background: white;
+    border: 1px solid var(--orange);
+    color: var(--orange);
 }
 
 .hero_btn2 {
@@ -179,11 +176,9 @@
 }
 
 .hero_btn2:hover {
-    background: var(--orange);
-    border-radius: 189px;
-    border: 1px solid transparent;
-    color: black;
-    transition: 300ms ease-in-out;
+    background: white;
+        border: 1px solid var(--orange);
+        color: var(--orange);
 
 }
 
@@ -447,6 +442,11 @@
     right: 5%;
 }
 
+.margin_rotate{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
 .ecosystem_bg {
     top: 3%;
 }
@@ -477,6 +477,10 @@
     height: unset !important;
 }
 
+.box1 {
+    margin: 0px 30px;
+}
+
 
 @media (min-width:992px) {
     .max_width_296 {
@@ -505,6 +509,10 @@
         padding: 17px 25px;
     }
 
+    .box1 {
+        margin: 0px 50px;
+    }
+
     .hero_btn1 {
         padding: 17px 25px;
     }
@@ -521,33 +529,7 @@
         padding-bottom: 100px !important;
     }
 
-    .padding_top_144 {
-        padding-top: 30px;
-    }
 
-    .pt-140 {
-        padding-top: 100px;
-    }
-
-    .padding_bottom_68 {
-        padding-bottom: 25px;
-    }
-
-    .padding_bottom_141 {
-        padding-bottom: 80px;
-    }
-
-    .padding_top_125 {
-        padding-top: 25px;
-    }
-
-    .padding_top_153 {
-        padding-top: 60px;
-    }
-
-    .padding_bottom_120 {
-        padding-bottom: 60px;
-    }
 }
 
 @media (min-width:1200px) {
@@ -627,6 +609,34 @@
 
     .padding_bottom_360 {
         padding-bottom: 200px;
+    }
+
+    .padding_top_144 {
+        padding-top: 30px;
+    }
+
+    .pt-140 {
+        padding-top: 100px;
+    }
+
+    .padding_bottom_68 {
+        padding-bottom: 25px;
+    }
+
+    .padding_bottom_141 {
+        padding-bottom: 80px;
+    }
+
+    .padding_top_125 {
+        padding-top: 25px;
+    }
+
+    .padding_top_153 {
+        padding-top: 60px;
+    }
+
+    .padding_bottom_120 {
+        padding-bottom: 60px;
     }
 
 }

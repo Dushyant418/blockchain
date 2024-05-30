@@ -17,7 +17,7 @@ const Utility = () => {
             <img className=' position-absolute notebook1 z-1 d-none d-lg-block' src={notebook} alt="notebook" />
             <div className=' container max_width_1140'>
                 <div className='row flex-column-reverse flex-lg-row padding_top_144 pb-3'>
-                    <div class="col-12 col-lg-6 z-1 d-flex justify-content-center flex-column align-items-center align-items-lg-start">
+                    <div class="col-12 col-lg-6 z-1 d-flex justify-content-center flex-column align-items-center align-items-lg-start" data-aos="zoom-in-right">
                         <h3 class=" font_inter font_weight_900 font_size_5xl line_height_6xl text-black mb-0">UTILITY</h3>
                         <p class="font_inter fw-normal font_size_xmd line_height_md max_width_550 padding_top_20 mb-0 padding_bottom_26">
                             The utility of $LHGG extends beyond its humorous appeal. Holders of
@@ -32,7 +32,7 @@ const Utility = () => {
                             <button className=' font_inter fw-semibold font_size_xmd line_height_sm hero_btn3'>Buy $GrayGensler</button>
                         </div>
                     </div>
-                    <div className=' col-12 col-lg-6 d-flex justify-content-lg-end justify-content-center z-1'>
+                    <div className=' col-12 col-lg-6 d-flex justify-content-lg-end justify-content-center z-1' data-aos="zoom-in-left">
                         <img className=' max_width_441 w-100' src={section4_img} alt="boy_img" />
                     </div>
                 </div>

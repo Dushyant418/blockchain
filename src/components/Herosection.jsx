@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react'
-import Dextools from '../assets/images/dextools_logo.svg'
+import Dextools from '../assets/images/dextools_logo.png.png'
 import Twitter from '../assets/images/twitter_logo.svg'
 import Telegram from '../assets/images/telegram_symbol.svg'
 import Boy_bg from '../assets/images/heroboy-bg.png'
@@ -47,7 +47,7 @@ const Herosection = () => {
           </div>
         </nav>
       </div>
-      <div className='container pt-140 pb-91 d-flex  flex-column   justify-content-center flex-grow-1  align-items-start max_width_1140 z-1'>
+      <div className='container pt-140 pb-91 d-flex  flex-column   justify-content-center flex-grow-1  align-items-start max_width_1140 z-1' data-aos="fade-up">
         <h1 className='mb-0 font_inter line_height_8xl font_weight_900 font_size_7xl text-white'>G<span className='color_orange'>G</span></h1>
         <p className=' mb-0 font_inter fw-semibold font_size_md line_height_xmd text-white max_width_538'>Join The <span className=' color_orange'>Worldwide Blockchain</span> Protest Against Corrupt Government Bodies</p>
         <div className=' d-flex gap_20 padding_top_62 padding_bottom_36'>

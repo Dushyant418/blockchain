@@ -16,10 +16,10 @@ const Ecosystem = () => {
             <img className=' position-absolute glasses5 d-none d-md-block' src={glasses} alt="glasses" />
             <div className=' container max_width_1140'>
                 <div className='row padding_top_218 padding_bottom_68'>
-                    <div className='col-12 col-lg-6 z-1 d-flex justify-content-lg-start justify-content-center'>
+                    <div className='col-12 col-lg-6 z-1 d-flex justify-content-lg-start justify-content-center' data-aos="fade-down-right">
                         <img className=' max_width_565 w-100 z-0' src={section5_image} alt="section5_image" />
                     </div>
-                    <div className='col-12 col-lg-6 z-1 d-flex justify-content-center align-items-center align-items-lg-start flex-column'>
+                    <div className='col-12 col-lg-6 z-1 d-flex justify-content-center align-items-center align-items-lg-start flex-column' data-aos="fade-down-left">
                         <div className=' d-flex flex-wrap gap_20 padding_bottom_26 '>
                             <img src={icon1} alt="icon" />
                             <img src={icon2} alt="icon" />

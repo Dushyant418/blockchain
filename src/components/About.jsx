@@ -22,10 +22,10 @@ const About = () => {
             </div>
             <div className=' container max_width_1140'>
                 <div className='row padding_top_218 padding_bottom_105'>
-                    <div className='col-12 col-lg-6 z-1 padding_top_20 d-flex  justify-content-center'>
+                    <div className='col-12 col-lg-6 z-1 padding_top_20 d-flex  justify-content-center' data-aos="fade-up-right">
                         <img className='w-100 max_width_688 height_695' src={section3_boy} alt="section3_boy" />
                     </div>
-                    <div className='col-12 col-lg-6 z-1 d-flex  justify-content-center flex-column align-items-center align-items-lg-start'>
+                    <div className='col-12 col-lg-6 z-1 d-flex  justify-content-center flex-column align-items-center align-items-lg-start ' data-aos="fade-up-left">
                         <div className=' d-flex flex-wrap gap_20 padding_bottom_26 '>
                             <img src={icon1} alt="icon" />
                             <img src={icon2} alt="icon" />
